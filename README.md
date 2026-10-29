@@ -64,5 +64,126 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Vera Health is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by gradient-ventures) and added to the network as a stub for full-pipeline profiling.
-- https://www.verahealth.ai/home
+Vera Health provides AI‑driven clinical decision support, offering clinicians rapid access to medical knowledge, guidelines, drug references, calculators and peer‑reviewed sources. Backed by Gradient Ventures, the platform combines evidence‑based content with large language models to answer point‑of‑care questions, accelerate research and improve patient outcomes across specialties.
+
+**Areas:** Health · AI · Clinical Decision Support · Medical Knowledge · Healthcare
+
+## Vera Health on APIs.io
+
+Everything profiled for Vera Health is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/vera-health/](https://apis.io/providers/vera-health/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Vera Health Chat API](https://apis.io/apis/vera-health/vera-health-chat-api/) — The Chat API from Vera Health — 6 operation(s) for chat.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Vera Health Agentic Access](https://apis.io/agentic-access/vera-health/vera-health-agentic-access/)
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [AgentChatRequest](https://apis.io/schemas/vera-health/vera-health-agent-chat-request/)
+- [AgentChatResponse](https://apis.io/schemas/vera-health/vera-health-agent-chat-response/)
+- [ChatRequest](https://apis.io/schemas/vera-health/vera-health-chat-request/)
+- [ChatResponse](https://apis.io/schemas/vera-health/vera-health-chat-response/)
+- [QuotasResponse](https://apis.io/schemas/vera-health/vera-health-quotas-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Vera Health Context](https://apis.io/jsonld/vera-health/vera-health-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Vera Health API Rules](https://apis.io/rules/vera-health/vera-health-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Vera Health Authentication](https://apis.io/security/vera-health/vera-health-authentication/)
+- [Vera Health Domain Security](https://apis.io/security/vera-health/vera-health-domain-security/)
+- [Vera Health Trust Center](https://apis.io/security/vera-health/vera-health-trust-center/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Vera Health Rate Limits](https://apis.io/rate-limits/vera-health/vera-health-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.verahealth.ai/home)
+- [Documentation](https://docs.verahealth.ai/)
+- [Getting started](https://docs.verahealth.ai/docs/quickstart)
+- [API reference](https://docs.verahealth.ai/api-reference/v1/chat)
+- [Blog](https://www.verahealth.ai/blog)
+- [Compliance](https://trust.verahealth.ai/)
+- [Terms of service](https://www.verahealth.ai/terms)
+- [Privacy policy](https://www.verahealth.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 54.0** — developing · rubric 0.24.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 66.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 18.9 |
+| Developer ergonomics | 49.3 |
+| Access clarity | 36.8 |
+
+**Agent readiness 66.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+
+**Regulatory alignment 22.1** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/vera-health/](https://apis.io/providers/vera-health/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Vera Health: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/vera-health/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
