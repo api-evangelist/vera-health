@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Vera Health provides AI‑driven clinical decision support, offering clinicians rapid access to medical knowledge, guidelines, drug references, calculators and peer‑reviewed sources. Backed by Gradient Ventures, the platform combines evidence‑based content with large language models to answer point‑of‑care questions, accelerate research and improve patient outcomes across specialties.
+Vera Health provides an AI‑driven clinical decision‑support platform that delivers evidence‑based answers to clinicians by indexing over 60 million peer‑reviewed medical papers. The service offers real‑time question answering, differential diagnosis assistance, treatment planning, drug references, and clinical trial insights, all powered by large language models and curated medical data. Founded to improve patient outcomes, Vera Health combines clinician expertise with AI research to create a trustworthy, up‑to‑date medical knowledge engine accessible via web and API interfaces.
 
-**Areas:** Health · AI · Clinical Decision Support · Medical Knowledge · Healthcare
+**Areas:** Company · HealthTech · AI · ClinicalDecisionSupport · MedicalData · Startup
 
 ## Vera Health on APIs.io
 
@@ -74,7 +74,7 @@ Everything profiled for Vera Health is published on APIs.io rather than in this 
 
 ### APIs (1)
 
-- [Vera Health Chat API](https://apis.io/apis/vera-health/vera-health-chat-api/) — The Chat API from Vera Health — 6 operation(s) for chat.
+- [Vera Health API](https://apis.io/apis/vera-health/vera-health-api/) — Send medical questions and receive evidence‑based answers via Server‑Sent Events.
 
 ### Published properties
 
@@ -86,21 +86,17 @@ Which operations an agent can call, which act, and which need a human in the loo
 
 - [Vera Health Agentic Access](https://apis.io/agentic-access/vera-health/vera-health-agentic-access/)
 
-#### JSON Schema (5)
-
-The data models the API reads and writes.
-
-- [AgentChatRequest](https://apis.io/schemas/vera-health/vera-health-agent-chat-request/)
-- [AgentChatResponse](https://apis.io/schemas/vera-health/vera-health-agent-chat-response/)
-- [ChatRequest](https://apis.io/schemas/vera-health/vera-health-chat-request/)
-- [ChatResponse](https://apis.io/schemas/vera-health/vera-health-chat-response/)
-- [QuotasResponse](https://apis.io/schemas/vera-health/vera-health-quotas-response/)
-
 #### JSON-LD (1)
 
 Linked-data contexts for the provider's vocabulary.
 
 - [Vera Health Context](https://apis.io/jsonld/vera-health/vera-health-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Vera Health Openapi Overlay](https://apis.io/overlays/vera-health/vera-health-openapi-overlay/)
 
 #### Governance rules (1)
 
@@ -115,6 +111,18 @@ Authentication, trust centre, and vulnerability disclosure.
 - [Vera Health Authentication](https://apis.io/security/vera-health/vera-health-authentication/)
 - [Vera Health Domain Security](https://apis.io/security/vera-health/vera-health-domain-security/)
 - [Vera Health Trust Center](https://apis.io/security/vera-health/vera-health-trust-center/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Vera Health Scopes](https://apis.io/scopes/vera-health/vera-health-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Vera Health Plans Pricing](https://apis.io/plans/vera-health/vera-health-plans-pricing/)
 
 #### Rate limits (1)
 
@@ -137,30 +145,30 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 54.0** — developing · rubric 0.24.0 · scored 2026-10-29
+**Kin Score 42.7** — developing · rubric 0.25.0 · scored 2026-10-29
 
 | Facet | Score |
 |---|---|
-| Discoverability | 67.9 |
-| Contract quality | 66.3 |
+| Discoverability | 66.7 |
+| Contract quality | 14.7 |
 | Contract governance | 79.1 |
 | Operational transparency | 18.9 |
 | Developer ergonomics | 49.3 |
 | Access clarity | 36.8 |
 
-**Agent readiness 66.1** — agent-ready (gated down from agent-native)
+**Agent readiness 40.5** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
-| Spec Presence | yes |
+| Spec Presence | — |
 | Agentic Access | unknown |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | served (partial credit) |
 | Idempotency | — |
-| Error Semantics | verified |
-| OpenAPI Examples | verified |
-| Rate Limit Signal | verified |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
 | Event Surface Described | — |
 | Agent Skills | unknown |
 | Well Known Catalog | — |
@@ -171,8 +179,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | verified |
 | Dynamic Client Registration | yes |
 | Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
 
-**Regulatory alignment 22.1** — Health
+**Regulatory alignment 36.4** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/vera-health/](https://apis.io/providers/vera-health/).
 
